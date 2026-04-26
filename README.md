@@ -14,6 +14,7 @@ Calm Exam is an iOS app designed to help students approach exams with clarity an
 - 💾 **Persistent Storage** — Your exam details are saved locally and restored automatically across sessions
 
 ---
+https://github.com/charveemasand108/Calm-exam/blob/0be8c5de3ea8275f6672e69d916b706b273487b1/simulator_screenshot_82F7A955-3C41-4F59-B94C-B8B4EA632724.png.https://github.com/charveemasand108/Calm-exam/blob/0be8c5de3ea8275f6672e69d916b706b273487b1/simulator_screenshot_3D9DDB75-7BDF-4D1A-901E-2E14AF75623C.png.https://github.com/charveemasand108/Calm-exam/blob/0be8c5de3ea8275f6672e69d916b706b273487b1/simulator_screenshot_88B3455D-9BA8-4DBB-9AB3-9339EA7C0BB9.png.https://github.com/charveemasand108/Calm-exam/blob/0be8c5de3ea8275f6672e69d916b706b273487b1/simulator_screenshot_1AF1F518-0451-4E9E-B686-658A28E479FD.png add proper width and proper spacing between all the images
 
 ## 🏗️ Architecture
 
