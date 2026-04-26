@@ -1,3 +1,38 @@
+# 🧘 Calm Exam
+
+> **Study smarter. Stress less. Show up ready.**
+
+Calm Exam is an iOS app designed to help students approach exams with clarity and confidence. It combines exam countdown tracking, focused study sessions, and breathing exercises — everything you need to stay calm under pressure.
+
+---
+
+## ✨ Features
+
+- 📅 **Exam Countdown** — Add your upcoming exam and track exactly how many days you have left
+- ⏱️ **Focus Timer** — Distraction-free study sessions to help you stay in the zone
+- 🌬️ **Breathing Exercises** — Built-in guided breathing to calm pre-exam nerves
+- 💾 **Persistent Storage** — Your exam details are saved locally and restored automatically across sessions
+
+---
+
+## 🏗️ Architecture
+
+Calm Exam follows the **MVVM** pattern for clean separation of concerns:
+
+All state lives in `CalmExamViewModel` (`ObservableObject`), with views staying purely reactive via `@Published` properties.
+
+---
+
+## 📂 File Structure
+
+- `CalmExamApp.swift` — App entry point
+- `ContentView.swift` — Root screen router
+- `Models/Exam.swift` — Exam model (Identifiable, Codable)
+- `ViewModels/CalmExamViewModel.swift` — Core state and persistence logic
+- `AddExamView.swift` — Exam creation screen
+- `FocusTimerView.swift` — Focus session screen
+- `BreathingView.swift` — Breathing exercise screen
+
 ---
 
 ## 🛠️ Tech Stack
@@ -15,10 +50,7 @@
 
 ## 🚀 Getting Started
 
-1. Clone the repo
-```bash
-   git clone https://github.com/charveemasand108/Calm-exam.git
-```
+1. Clone the repo — `git clone https://github.com/charveemasand108/Calm-exam.git`
 2. Open `Calm exam.xcodeproj` in Xcode
 3. Select a simulator or your device
 4. Hit **Run** ▶️
